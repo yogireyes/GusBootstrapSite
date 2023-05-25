@@ -1,0 +1,121 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/*************************** Navigation Styling *********************************/
+.navgation-wrapper {
+  background-color: black;
+  padding: 15px 0;
+}
+
+.navgation-wrapper .brand-name {
+  font-size: 42px;
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
+}
+
+.navgation-wrapper ul {
+  list-style: none;
+}
+
+.navgation-wrapper ul li + li {
+  margin-left: 15px;
+}
+
+.navgation-wrapper ul li a {
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
+}
+
+/*************************** Hero Section styling *********************************/
+
+.hero-section {
+  margin-bottom: 100px;
+}
+
+.hero-section .hero-section-inner .text {
+  position: absolute;
+  font-size: 8rem;
+  color: #fff;
+  font-weight: 500;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*************************** Card Section Styling *********************************/
+
+.card-section-wrapper .header p {
+  background-color: #8080806b;
+  padding: 12px 25px;
+  border: 1px solid #665d5d;
+}
+
+.card-section-wrapper .card {
+  padding-bottom: 25px;
+  border: 0;
+  border-bottom: 1px solid #aaaaaa;
+  border-radius: 0;
+}
+
+.card-section-wrapper .card .card-title {
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.card-section-wrapper .card .card-text {
+  font-size: 25px;
+}
+
+.card-section-wrapper .card .price {
+  font-size: 25px;
+}
+
+.card-section-wrapper .card .read-more-btn {
+  background-color: #dead13;
+  color: #fff;
+  border: 1px solid #0000004d;
+  padding: 12px;
+  font-size: 25px;
+}
+
+.card-section-wrapper .card .read-more-btn:hover {
+  background-color: #ebb625;
+}
+
+/*************************** Footer Styling *********************************/
+
+.footer {
+  background-color: black;
+  padding: 50px 0;
+}
+
+.footer .container {
+  max-width: 80%;
+}
+
+.footer iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.footer .heading {
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.footer ul {
+  list-style: none;
+}
+
+.footer ul li + li {
+  margin-top: 40px;
+}
+
+.footer ul li a {
+  color: #fff;
+  text-decoration: none;
+}
